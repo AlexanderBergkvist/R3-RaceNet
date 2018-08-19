@@ -11,6 +11,17 @@ Contents:
 4. How to implement this yourself
 5. Final notes
 
+Summary of features
+---
+
+As mentioned earlier this project was inspired by Harrison's youtube series Python plays GTA V, in which he made an AI that could drive on the roads in a scooter. However over the course of my R3's development a lot of things have changed, so here's a brief summary of what you can expect from my solution:
+
+**Speed limit**
+
+**Gathering data:**
+
+**Joystick Driving**
+
 The files and what they do
 ---
 In this repository you'll find the following files, here's just a little handy guide for what they do so it'll be easy for you to set up and make adjustments.
