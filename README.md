@@ -25,7 +25,9 @@ In this repository you'll find the following files, here's just a little handy g
 
 * **TrainModel.py** also fairly straightforward, simply provide the directory where your data is stored. And the you should be good to go!
 
-* **Model.py** is where you find the architecture of the model, maybe you can find an even more efficient model that can outperform mine :)?
+* **Model.py** is where you find the architecture of the model, maybe you can find an even more efficient model that can outperform mine :)
+
+* **Drive.py** when your AI is trained and ready to go, and vjoy is set up here is where you come to drive your car!
 
 
 
