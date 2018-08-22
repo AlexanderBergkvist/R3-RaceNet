@@ -17,9 +17,13 @@ Summary of features
 
 As mentioned earlier this project was inspired by Harrison's youtube series Python plays GTA V, in which he made an AI that could drive on the roads in a scooter. However over the course of my R3's development a lot of things have changed, so here's a brief summary of what you can expect from my solution:
 
-**Speed limit**
+**Speed limit** 
 
-**Gathering data:**
+Since I wanted to show the car's ability to drive on the road, there could never be an instance where the car was going to fast to even be able to make a successful turn. To achieve this i capped the car's speed at 50 km/h, by making the car press the brake key slightly when it's speed surpassed that limit. However the method didn't always limit the speed entirely which is why a second, more aggresive brake was implemented at 60 km/h. So the speed would essentially vary in the intervall of 50-60 km/h. This limit could probably have been a little higher, but i figured 50 would be enough to prove the point.
+
+**Gathering data**
+
+One thing to note about the datagathering proccess is that most tracks would be heavily biased towards turning one way. For example one track would have 75% right turns and 25% left, this is due to the nature of racing tracks. So an added feature was to always invert the turn as well, saving both the original data sample as well as the inverted one. So for example if a right turn was taken, the program would save that right turn with according label "right". Then it would invert the picture (mirror it horizontaly), and change the label to "left". The logic here is if we were given the exact oppsite turn we would of course take the exact same turn, but in the other direction.
 
 **Joystick Driving**
 
