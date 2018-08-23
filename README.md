@@ -42,9 +42,9 @@ In this repository you'll find the following files, here's just a little handy g
 
 * **SpeedReaderSVM.py** is just for reading the speed indicator in the RaceRoom game, i collected pictures of the speed indicator to train the speedreader's support vector machine. This file will probably have to be altered by you, since your screen probably have a different resolution than mine. You will also need to collect the pictures that you're going to train the svm with. If you do not intend to interact with the speed of the vehicle, you might as well forget about all of this.
 
-* **GetData.py** is for gathering the data used in the training of the neural network. It shouldn't be more setup required than changing the **ROI** to fit the window you play your game in, as well as providing the directory where you want to save the data. After that's done it should simply be matter of driving with the A,W,D keys on your keyboard.
+* **GetData.py** is for gathering the data used in the training of the neural network. It shouldn't be more setup required than changing the **ROI** (Region of interest) to fit the window you play your game in, as well as providing the directory where you want to save the data. After that's done it should simply be matter of driving with the A,W,D keys on your keyboard.
 
-* **TrainModel.py** also fairly straightforward, simply provide the directory where your data is stored. And the you should be good to go!
+* **TrainModel.py** also fairly straightforward, simply provide the directory where your data is stored. And then you should be good to go!
 
 * **Model.py** is where you find the architecture of the model, maybe you can find an even more efficient model that can outperform mine :)
 
