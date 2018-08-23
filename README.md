@@ -69,4 +69,4 @@ Because I want anybody to be able to easily get started and try out my project, 
 * Make sure the DLL provided in the repository is in the directory of the program.
 * Download and run this https://sourceforge.net/projects/vjoystick/files/latest/download.
 * Get the 64 bit version of this http://www.x360ce.com, then put it into your game directory. For RaceRoom, find the steam. folder then ->\Steam\steamapps\common\raceroom racing experience.
-* Now Run the exe file just click through any questions that pops up, XBOX360CE should find vjoy at this point. To test it runt the test file I've provided in the directory.
+* Now run the file just click through any questions that pops up, XBOX360CE should find vjoy at this point. To test it run the test file I've provided in the directory.
