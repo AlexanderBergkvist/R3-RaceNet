@@ -52,6 +52,13 @@ In this repository you'll find the following files, here's just a little handy g
 
 * **Drive.py** when your AI is trained and ready to go, and vjoy is set up here is where you come to drive your car!
 
+3 Results of the project
+---
+
+*See for yourself ;)*
+
+[linkname](https://www.youtube.com/watch?v=FQm_RhlMMIk&t=3s)
+
 4 How to implement this yourself
 ---
 
