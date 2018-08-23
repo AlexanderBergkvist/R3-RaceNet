@@ -1,3 +1,5 @@
+# When vjoy and xbox360ce is set up, run this to make sure everything works.
+# Source: https://gist.github.com/Flandan/fdadd7046afee83822fcff003ab47087#file-vjoy-py
 from vjoy import vj, setJoy
 import numpy as np
 import time
