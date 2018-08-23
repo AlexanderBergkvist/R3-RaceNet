@@ -65,7 +65,7 @@ Because I want anybody to be able to easily get started and try out my project, 
 
 2. Vjoy and XBOX360CE
 
-*Vjoy lets us simulate that we have a joystick, XBOX360CE turns those imaginary joystick movements into a format indentical to a real XBOX360 controller.*
+    *Vjoy lets us simulate that we have a joystick, XBOX360CE turns those imaginary joystick movements into a format indentical to a real XBOX360 controller.*
 * Make sure the DLL provided in the repository is in the directory of the program.
 * Download and run this https://sourceforge.net/projects/vjoystick/files/latest/download.
 * Get the 64 bit version of this http://www.x360ce.com, then put it into your game directory. For RaceRoom, find the steam. folder then ->\Steam\steamapps\common\raceroom racing experience.
