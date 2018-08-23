@@ -38,7 +38,9 @@ In this repository you'll find the following files, here's just a little handy g
 
 * **GrabScreen.py**, **UseKeys.py** and **KeyCheck.py** are all programs created by other wonderful people. These programs are responsible for handling all the inputs and outputs of the program, mostly using pywin32. From capturing a screenshot of the game to reading what keys are currently being pressed. Credits for all the individual creator are found in the files.
 
-* **vjoy.py** is used to control the joystick on the virtual controller, and **vJoyInterface.dll** needs to be in the directory for it to work. You'll also need to download and run an exe file for vjoy https://sourceforge.net/projects/vjoystick/files/latest/download.
+* **vjoy.py** is used to control the joystick on the virtual controller, and **vJoyInterface.dll** needs to be in the directory for it to work. Source for the file and the testfile: https://gist.github.com/Flandan/fdadd7046afee83822fcff003ab47087#file-vjoy-py
+
+Note: You'll also need to download and run an exe file for vjoy https://sourceforge.net/projects/vjoystick/files/latest/download. 
 
 * **SpeedReaderSVM.py** is just for reading the speed indicator in the RaceRoom game, i collected pictures of the speed indicator to train the speedreader's support vector machine. This file will probably have to be altered by you, since your screen probably have a different resolution than mine. You will also need to collect the pictures that you're going to train the svm with. If you do not intend to interact with the speed of the vehicle, you might as well forget about all of this.
 
