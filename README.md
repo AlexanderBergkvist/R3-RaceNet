@@ -40,7 +40,7 @@ In this repository you'll find the following files, here's just a little handy g
 
 * **vjoy.py** is used to control the joystick on the virtual controller, and **vJoyInterface.dll** needs to be in the directory for it to work. **vjoy_test.py** can be used to test that everything is set up correctly. Source for the file and the testfile: https://gist.github.com/Flandan/fdadd7046afee83822fcff003ab47087#file-vjoy-py
 
-Note: You'll also need to download and run an exe file for vjoy https://sourceforge.net/projects/vjoystick/files/latest/download. 
+    Note: You'll also need to download and run an exe file for vjoy https://sourceforge.net/projects/vjoystick/files/latest   /download. 
 
 * **SpeedReaderSVM.py** is just for reading the speed indicator in the RaceRoom game, i collected pictures of the speed indicator to train the speedreader's support vector machine. This file will probably have to be altered by you, since your screen probably have a different resolution than mine. You will also need to collect the pictures that you're going to train the svm with. If you do not intend to interact with the speed of the vehicle, you might as well forget about all of this.
 
