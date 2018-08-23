@@ -61,7 +61,8 @@ Because I want anybody to be able to easily get started and try out my project, 
 * **GetData.py**, **Drive.py** have two variables: **ROI** (measurements of game window) and **DATA_DIR** (Path to directory where you will keep you data). Supply those with your values and you should be set. The file **SpeedReaderSVM.py** also wants a directory where you keep the data for training it to read the speed indicator. But to use that file you'll need to do a lot more modifying to make it work for your measurements. You might want to leave the speedcap deactivated and just go in novice mode in the game.
 
 2. Vjoy and XBOX360CE
-Vjoy lets us simulate that we have a joystick, XBOX360CE turns those imaginary joystick movements into a format indentical to a real XBOX360 controller.
+
+*Vjoy lets us simulate that we have a joystick, XBOX360CE turns those imaginary joystick movements into a format indentical to a real XBOX360 controller.*
 * Make sure the DLL provided in the repository is in the directory of the program.
 * Download and run this https://sourceforge.net/projects/vjoystick/files/latest/download.
 * Get the 64 bit version of this http://www.x360ce.com, then put it into your game directory. For RaceRoom, find the steam. folder then ->\Steam\steamapps\common\raceroom racing experience.
