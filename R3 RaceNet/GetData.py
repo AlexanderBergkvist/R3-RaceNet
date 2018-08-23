@@ -9,7 +9,7 @@ import glob
 import cv2
 import random
 import time
-from SpeedReaderSVM import Train_Svm, Get_Speed, Cap_Speed
+#from SpeedReaderSVM import Train_Svm, Get_Speed, Cap_Speed   # I'll leave the speed cap deactivated as a default
 from sklearn import svm
 from GrabScreen import grab_screen
 from KeyCheck import keycheck
@@ -69,7 +69,7 @@ def equalize_data(lf,f,rf): # Makes sure data is balanced, ie you have equal amo
     return training_data
 
 # Train support vector machine (SVM), responsible for reading speed indicator.
-clf = Train_Svm()
+#clf = Train_Svm() # I'll leave the speed cap deactivated as a default
 
 # Just a time to get user ready.
 for i in range(4): 
@@ -78,8 +78,8 @@ for i in range(4):
 
 while True:
 
-    speed = Get_Speed(clf) # Get current speed.
-    Cap_Speed(speed) # Make sure we aren't going too fast.
+    #speed = Get_Speed(clf) # Get current speed. # I'll leave the speed cap deactivated as a default
+    #Cap_Speed(speed) # Make sure we aren't going too fast. # I'll leave the speed cap deactivated as a default
 
     img = grab_screen(region = ROI)
     img_invert = img.copy()
