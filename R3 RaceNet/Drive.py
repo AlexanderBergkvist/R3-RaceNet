@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 import time
 import random
-from SpeedReaderSVM import Train_Svm, Get_Speed, Cap_Speed
+#from SpeedReaderSVM import Train_Svm, Get_Speed, Cap_Speed # I'll leave the speed cap deactivated as a default
 from GrabScreen import grab_screen
 from UseKeys import PressKey,ReleaseKey, W, S
 from Model import model
@@ -26,8 +26,8 @@ def main():
     vj.open()
     while(True):
         
-        speed = Get_Speed(clf) # Get current speed.
-        Cap_Speed(speed) # Make sure we aren't going too fast.
+        #speed = Get_Speed(clf) # Get current speed. , # I'll leave the speed cap deactivated as a default
+        #Cap_Speed(speed) # Make sure we aren't going too fast. , # I'll leave the speed cap deactivated as a default
 
         screen = grab_screen(region = ROI)  #Screenshot part of window.
         screen = np.array(screen) #Make screenshot into array.
@@ -42,7 +42,7 @@ def main():
 
 # Now lets go!
 # Train support vector machine (SVM), responsible for reading speed indicator.
-clf = Train_Svm()
+#clf = Train_Svm() , # I'll leave the speed cap deactivated as a default
 
 # Driving begins.
 main() 
