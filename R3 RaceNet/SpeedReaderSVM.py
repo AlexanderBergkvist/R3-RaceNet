@@ -33,9 +33,9 @@ def Train_Svm():
 
 def Get_Speed(clf):
     # Use SVM to read speed indicator and return the current speed of vehicle.
-    img1 = grab_screen(region=(1361,830,1374,853))
-    img2 = grab_screen(region=(1348,830,1361,853))
-    img3 = grab_screen(region=(1335,830,1348,853))
+    img1 = grab_screen(region=(1361,830,1374,853)) # _ _ x digit
+    img2 = grab_screen(region=(1348,830,1361,853)) # _ x _ digit
+    img3 = grab_screen(region=(1335,830,1348,853)) # x _ _ digit
     img1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
     img2 = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
     img3 = cv2.cvtColor(img3, cv2.COLOR_BGR2GRAY)
