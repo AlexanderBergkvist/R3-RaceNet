@@ -36,7 +36,7 @@ The files and what they do
 ---
 In this repository you'll find the following files, here's just a little handy guide for what they do so it'll be easy for you to set up and make adjustments.
 
-* **GrabScreen.py**, **UseKeys.py** and **KeyCheck.py** are all programs created by other wonderful people. These programs are responsible for handling all the inputs and outputs of the program, mostly using pywin32. From capturing a screenshot of the game to reading what keys are currently being pressed. Credits for all the individual creator are found in the file itself.
+* **GrabScreen.py**, **UseKeys.py** and **KeyCheck.py** are all programs created by other wonderful people. These programs are responsible for handling all the inputs and outputs of the program, mostly using pywin32. From capturing a screenshot of the game to reading what keys are currently being pressed. Credits for all the individual creator are found in the files.
 
 * **vjoy.py** is used to control the joystick on the virtual controller, and **vJoyInterface.dll** needs to be in the directory for it to work. You'll also need to download and run an exe file for vjoy https://sourceforge.net/projects/vjoystick/files/latest/download.
 
