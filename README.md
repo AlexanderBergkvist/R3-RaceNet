@@ -12,7 +12,7 @@ Contents:
 4. How to implement this yourself
 5. Final notes
 
-Summary of features
+1 Summary of features
 ---
 
 As mentioned earlier this project was inspired by Harrison's youtube series Python plays GTA V, in which he made an AI that could drive on the roads in a scooter. However over the course of my R3's development a lot of things have changed, so here's a brief summary of what you can expect from my solution:
@@ -32,7 +32,7 @@ One problem with the original program was the usage of keys on the keyboard for 
 In an stackoverflow discussion https://stackoverflow.com/questions/43483121/simulate-xbox-controller-input-with-python, there was some great advice how to implement a simulated joystick. This allowed the program to become a lot more fluent in it's driving. The joystick took a number between -1 (pulling the joy all the way to the left) and 1 (to the right). So this was implement, the program now takes the probability of a right turn (ex. 0.45) and subtracts probablity of left turn (ex. 0.10). 0.45 - 0.10 = +0.35, so pulling the joystick 35% to the right would be the action generated. In the end I decided to cube the decision to minimize low (uncertain) decisions, for example 0.35^3 = 0.043. I'll provide instruction later in the guide to how to get the joystick to work.  
 
 
-The files and what they do
+2 The files and what they do
 ---
 In this repository you'll find the following files, here's just a little handy guide for what they do so it'll be easy for you to set up and make adjustments.
 
@@ -52,7 +52,7 @@ Note: You'll also need to download and run an exe file for vjoy https://sourcefo
 
 * **Drive.py** when your AI is trained and ready to go, and vjoy is set up here is where you come to drive your car!
 
-How to implement this yourself
+4 How to implement this yourself
 ---
 
 Because I want anybody to be able to easily get started and try out my project, I'll make this section as straight forward as I possibly can. Follow the instructions to the dot and everything should work for you. Note this will only work on windows because of the pywin32 stuff.
