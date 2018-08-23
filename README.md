@@ -56,7 +56,7 @@ How to implement this yourself
 Because I want anybody to be able to easily get started and try out my project, I'll make this section as straight forward as I possibly can. Follow the instructions to the dot and everything should work for you. Note this will only work on windows because of the pywin32 stuff.
 
 **Instructions**
-1.
+1. The files
 * Clone this repository.
 *  
 
