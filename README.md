@@ -23,7 +23,7 @@ Since I wanted to show the car's ability to drive on the road, there could never
 
 ![Speed indicator](https://github.com/sscool12/R3-RaceNet/blob/master/speed_indi.png)
 
-*Reading the speedindicator is simply as matter of capturing all three digits and running them through some lightweight image classifier, like in this case where a support vector machine was used.
+*Reading the speedindicator is simply as matter of capturing all three digits and running them through some lightweight image classifier, like in this case where a support vector machine was used.*
 
 **Gathering data**
 
