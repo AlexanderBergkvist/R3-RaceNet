@@ -83,6 +83,7 @@ Because I want anybody to be able to easily get started and try out my project, 
 * Sklearn
 * Glob
 * PyWin32
+* OpenCV
 
 2. The files
 * Clone this repository.
