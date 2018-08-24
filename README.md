@@ -22,6 +22,7 @@ As mentioned earlier this project was inspired by Harrison's youtube series Pyth
 Since I wanted to show the car's ability to drive on the road, there could never be an instance where the car was going to fast to even be able to make a successful turn. To achieve this i capped the car's speed at 50 km/h, by making the car press the brake key slightly when it's speed surpassed that limit. However the method didn't always limit the speed entirely which is why a second, more aggresive brake was implemented at 60 km/h. So the speed would essentially vary in the intervall of 50-60 km/h. This limit could probably have been a little higher, but i figured 50 would be enough to prove the point.
 
 ![Speed indicator](https://github.com/sscool12/R3-RaceNet/blob/master/speed_indi.png)
+
 *Reading the speedindicator is simply as matter of capturing all three digits and running them through some lightweight image classifier, like in this case where a support vector machine was used.*
 
 **Gathering data**
