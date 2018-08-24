@@ -1,7 +1,6 @@
 # R3-RaceNet
-My Neural Network based AI, for autonomous driving.
-
-# This ReadMe isn't finished
+*My Neural Network based AI, for autonomous driving.
+---
 Hi, my name is Alexander. I study IT engineering at the University of Uppsala. As of now i have just concluded my freshman year at university, during the year i have been working on an artificial intelligence for autonomous driving. The project was first inspired by a youtube series published by developer Harrison Kinsley (also known as Sentdex). With my project i wanted to demonstrate the capabilities of neural networks and their ability to make succesful decisions in a semi-complex environment. So without further ado here's the project.
 
 Contents:
