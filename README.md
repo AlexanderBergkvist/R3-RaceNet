@@ -41,7 +41,7 @@ In this repository you'll find the following files, here's just a little handy g
 
 * **GrabScreen.py**, **UseKeys.py** and **KeyCheck.py** are all programs created by other wonderful people. These programs are responsible for handling all the inputs and outputs of the program, mostly using pywin32. From capturing a screenshot of the game to reading what keys are currently being pressed. Credits for all the individual creators are found in the files.
 
-* **vjoy.py** is used to control the joystick on the virtual controller, and **vJoyInterface.dll** needs to be in the directory for it to work. **vjoy_test.py** can be used to test that everything is set up correctly. Source for the file and the testfile: https://gist.github.com/Flandan/fdadd7046afee83822fcff003ab47087#file-vjoy-py
+* **vjoy.py** is used to control the joystick on the virtual controller, and **vJoyInterface.dll** needs to be in the directory for it to work. **VjoyTest.py** can be used to test that everything is set up correctly. Source for the file and the testfile: https://gist.github.com/Flandan/fdadd7046afee83822fcff003ab47087#file-vjoy-py
 
     Note: You'll also need to download and run an exe file for vjoy https://sourceforge.net/projects/vjoystick/files/latest   /download. 
 
@@ -96,4 +96,4 @@ Because I want anybody to be able to easily get started and try out my project, 
 * Download and run this https://sourceforge.net/projects/vjoystick/files/latest/download.
 * **vjoy.py** can now be used to control the virtual controller. Now we need to set up XBox360CE
 * Get the 64 bit version of this http://www.x360ce.com, then put it into your game directory. For RaceRoom, find the steam. folder then ->\Steam\steamapps\common\raceroom racing experience.
-* Now run the file just click through any questions that pops up, XBox360CE should find vjoy at this point. To test it run the test file I've provided in the directory.
+* Now run the file just click through any questions that pops up, XBox360CE should find vjoy at this point. To test it run the test file **VjoyTest.py** I've provided in the directory.
