@@ -87,15 +87,20 @@ In this repository you'll find the following files, here's just a little handy g
 3 Results of the project
 ---
 
-*See for yourself ;)*
-
 [R3 drives through known racing track  ](https://www.youtube.com/watch?v=FQm_RhlMMIk&list=PL87x_8UldN28gSHIorqH8CCt7S98PMn7M)
 
-This footage was from one of the tracks that R3 actually had seen before, the data R3 was trained on was gathered from this track and that's why it does really well here.
+*This footage was from one of the tracks that R3 actually had seen before, the data R3 was trained on was gathered from this track and that's why it does really well here.*
 
 [R3 drives through UN-known racing track ](https://www.youtube.com/watch?v=8-deaYUIiac&index=2&list=PL87x_8UldN28ilAxlseKcB5XeUSVrhO0m)
 
-Here is where R3 actually exceded my expectations, this course was purchased after training R3 simply because i wanted to see how it would react to new challenges. I was very suprised to see that it actually made very few mistakes, and it seemed to know what it was doing.
+*Here is where R3 actually exceded my expectations, this course was purchased after training R3 simply because i wanted to see how it would react to new challenges. I was very suprised to see that it actually made very few mistakes, and it seemed to know what it was doing.*
+
+R3 really impressed me, it seemed to have a geniune understanding of how turning and taking good angles worked. That it also performed well for any track in general, made me even more impressed. The breakthrough for R3 really came when the joystick driving was introduced. Before that i had worked (with varying success) with different model, logic and other methods for helping it make good decisions. Though none of the earlier versions could ever complete a lap without at least one crash. Now a simple model and 100k data was enough to create what you saw on the video. I'm certain that this is due to R3 previously not being able to make those fine turns, adjusting ever so slightly to position itself in the right way. And that atleast for me will be a lesson for the future: If possible always give the ai the ability to react according to the confidence percentages. 
+Not for example: 
+```
+if percentage_right > 80%: 
+    Turn Right()
+```
 
 4 How to implement this yourself
 ---
