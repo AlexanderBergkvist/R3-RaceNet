@@ -99,3 +99,6 @@ Because I want anybody to be able to easily get started and try out my project, 
 * **vjoy.py** can now be used to control the virtual controller. Now we need to set up XBox360CE
 * Get the 64 bit version of this http://www.x360ce.com, then put it into your game directory. For RaceRoom, find the steam. folder then ->\Steam\steamapps\common\raceroom racing experience.
 * Now run the file just click through any questions that pops up, XBox360CE should find vjoy at this point. To test it run the test file **VjoyTest.py** I've provided in the directory.
+
+5 Final notes
+---
