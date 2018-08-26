@@ -102,3 +102,7 @@ Because I want anybody to be able to easily get started and try out my project, 
 
 5 Final notes
 ---
+Before you leave I'd just like to thank you for taking the time to check out my project. If you much like me are completely new to neural networks and machine learning in general. And possible is struggling a bit to get started, I hope I've given you some sort of inspiration to keep on going. Learning this sort of stuff can really feel like banging your head against the wall. Just sitting there waiting for hours for your model to train, and then for it to end up not working can lead to some serious frustration. But trust me, it gets better. I especially hope you who feel like you're just getting started can have some fun with my program, pick it apart and see if you can come up with something cool of your own. Because that's atleast what have worked for me, and don't pull yourself down if nothing works. I have been working on this on the side parallell to my education, and for the last 6 months i have been on the verge of quiting atleast once a week. So cheer up, and best of luck to you!
+
+If you have any questions for me please just send me an email at alexander.bergkvist@hotmail.com, and I'll do my best to help you out :D
+If nothing else... Have a good one!
