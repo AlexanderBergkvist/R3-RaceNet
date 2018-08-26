@@ -83,6 +83,7 @@ Because I want anybody to be able to easily get started and try out my project, 
 * Glob
 * PyWin32
 * OpenCV
+
 ``` pip install numpy tensorflow tflearn sklearn pywin32 opencv-python ```
 
 2. The files
