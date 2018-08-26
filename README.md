@@ -26,7 +26,7 @@ Since I wanted to show the car's ability to drive on the road, there could never
 
 **Gathering data**
 
-One thing to note about the datagathering proccess is that most tracks would be heavily biased towards turning one way. For example one track would have 75% right turns and 25% left, this is due to the nature of racing tracks. So an added feature was to always invert the turn as well, saving both the original data sample as well as the inverted one. So for example if a right turn was taken, the program would save that right turn with according label "right". Then it would invert the picture (mirror it horizontaly), and change the label to "left". The logic here is if we were given the exact oppsite turn we would of course take the exact same turn, but in the other direction.
+One thing to note about the datagathering proccess is that most tracks would be heavily biased towards turning one way. For example one track would have 75% right turns and 25% left, this is due to the nature of racing tracks. So an added feature was to always invert the turn as well, saving both the original data sample as well as the inverted one. So for example if a right turn was taken, the program would save that right turn with according label "right". Then it would invert the picture (mirror it horizontaly), and change the label to "left". The logic here is if we were given the exact opposite turn we would of course take the exact same turn, but in the other direction.
 
 **Joystick Driving**
 
